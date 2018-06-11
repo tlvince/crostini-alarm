@@ -2,7 +2,7 @@
 
 vsh termina
 mkdir /tmp/alarm && cd /tmp/alarm
-curl -L http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
+curl -LO http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
 curl -O https://raw.githubusercontent.com/tlvince/crostini-alarm/master/metadata.yaml
 tar cf metadata.tar metadata.yaml
 lxc image import --alias alarm metadata.tar ArchLinuxARM-aarch64-latest.tar.gz
