@@ -1,0 +1,7 @@
+architecture: "aarch64"
+creation_date: 1528737911
+properties:
+  architecture: "aarch64"
+  description: "Arch Linux ARM"
+  os: "archlinux"
+  release: "latest"
